@@ -23,7 +23,7 @@
         "--lazy"
       ],
       "outFiles": [
-        "${workspaceFolder}/.dist/**/*.js"
+        "${workspaceFolder}/.build/**/*.js"
       ],
       "protocol": "inspector",
       "runtimeExecutable": "node",
