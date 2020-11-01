@@ -1,0 +1,33 @@
+{
+  "name": "sls-todo-ts",
+  "version": "1.0.0",
+  "description": "Serverless typescript TODO List - AWS, Lambda, DynamoDB, API Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .ts src/",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apo9666/sls-todo-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apo9666/sls-todo-ts/issues"
+  },
+  "homepage": "https://github.com/apo9666/sls-todo-ts#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "typescript": "^4.0.5"
+  }
+}
